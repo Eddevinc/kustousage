@@ -1,0 +1,91 @@
+[
+
+  {
+
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+
+    "Parameter": [
+
+      {
+
+        "Name": "max-cpu-cores",
+
+        "Value": "10"
+
+      }
+
+    ]
+
+  },
+
+  {
+
+    "ResourceType": "Microsoft.Databricks/workspaces",
+
+    "Parameter": [
+
+      {
+
+        "Name": "max-clusters",
+
+        "Value": "1"
+
+      }
+
+    ]
+
+  },
+
+  {
+
+    "ResourceType": "Microsoft.Synapse/workspaces/bigDataPools",
+
+    "Parameter": [
+
+      {
+
+        "Name": "max-node-size",
+
+        "Value": "small"
+
+      },
+
+      {
+
+        "Name": "max-node-count",
+
+        "Value": "6"
+
+      },
+
+      {
+
+        "Name": "auto-pause-status",
+
+        "Value": "true"
+
+      }
+
+    ]
+
+  },
+
+  {
+
+    "ResourceType": "Microsoft.Sql/servers/databases",
+
+    "Parameter": [
+
+      {
+
+        "Name": "max-DW",
+
+        "Value": "400"
+
+      }
+
+    ]
+
+  }
+
+]
