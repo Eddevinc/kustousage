@@ -10,7 +10,7 @@
 
         "Name": "max-cpu-cores",
 
-        "Value": "10"
+        "Value": "12"
 
       }
 
